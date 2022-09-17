@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/poc/static/css/main.8a378a5c.css",
+    "main.js": "/poc/static/js/main.b2adfbf6.js",
+    "static/media/donut.png": "/poc/static/media/donut.10a922f0ca04f02ff741.png",
+    "static/media/profile.webp": "/poc/static/media/profile.aaa4b923f3b567d3ca19.webp",
+    "static/media/food.png": "/poc/static/media/food.8a7d6f6ad8986cfda5f7.png",
+    "index.html": "/poc/index.html",
+    "main.8a378a5c.css.map": "/poc/static/css/main.8a378a5c.css.map",
+    "main.b2adfbf6.js.map": "/poc/static/js/main.b2adfbf6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a378a5c.css",
+    "static/js/main.b2adfbf6.js"
+  ]
+}
