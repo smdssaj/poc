@@ -1,0 +1,32 @@
+.slider-component {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+}
+
+.slider-background {
+    position: relative;
+    background-color: #000000b3;
+    height: 100%;
+    transition: .2s background-color;
+}
+
+.slider-body {
+    position: absolute;
+    height: 90vh;
+    width: 100vw;
+    background-color: white;
+    border-radius: 20px;
+    bottom: -4vh;
+    padding-bottom: 4vh;
+    box-sizing: border-box;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.slider-content{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}

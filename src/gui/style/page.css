@@ -1,0 +1,64 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.app-header {
+    background-color: white;
+    display: flex;
+    transition: .25s;
+    padding: 4px 5px 5px 5px;
+    justify-content: space-between;
+    box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.065), 0 6px 20px 0 rgba(0, 0, 0, 0.065);
+}
+
+.header-upper-title {
+    margin: auto;
+    font-weight: 600;
+    transition: .25s;
+}
+
+.header-close-icon {
+    position: relative;
+    border-radius: 50%;
+    background-color: rgb(231, 231, 231);
+    color: gray;
+    padding: 2px;
+    margin: auto 10px auto 20px;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.header-close-icon>* {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.header-user-image {
+    overflow: hidden;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.header-user-image > img {
+    height: 100%;
+    width: 100%;
+}
+
+.app-content {
+    overflow: scroll;
+    height: 100%;
+    padding: 2rem 1.5rem;
+}
+
+.app-content>h1 {
+    font-weight: 700;
+}

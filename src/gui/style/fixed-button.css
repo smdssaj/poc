@@ -1,0 +1,19 @@
+.fixed-button-component {
+    position: absolute;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    width: 85vw;
+    margin: 0 auto;
+    padding: .8rem 1rem;
+    border-radius: 50px;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fixed-button-component > * {
+    margin: 0 5px;
+    font-weight: 600;
+}

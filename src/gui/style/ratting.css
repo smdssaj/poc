@@ -1,0 +1,18 @@
+.ratting-component{
+    display: flex;
+    color: gainsboro;
+}
+
+.ratting-component > * {
+    margin: 0 5px 0 0;
+}
+
+.ratting-ratio{
+    color: gray;
+}
+
+.ratting-stars > * {
+    margin-right: 2px;
+    height: 1.5rem;
+    width: 1.5rem;
+}
